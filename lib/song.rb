@@ -11,7 +11,7 @@ class Song
   end  
   
   def self.new_by_new_filename
-    MP3Importer.files.each  do |file|
+    
       array = file.split(" - ")
       song = Song.new(array[1])
       
