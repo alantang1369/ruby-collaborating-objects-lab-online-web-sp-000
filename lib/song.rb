@@ -10,7 +10,7 @@ class Song
     @@all 
   end  
   
-  def self.new_by_new_filename(file)
+  def self.new_by_filename(file)
       array = file.split(" - ")
       new_instance = Song.new(array[1])
       
