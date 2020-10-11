@@ -14,6 +14,6 @@ class Song
     MP3Importer.files.each  do |file|
       array = file.split(" - ")
       song = Song.new(array[1])
-    
+    end
   end  
 end
